@@ -1,0 +1,44 @@
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\csc.exe
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\vbc.exe
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\Distribuidora.dll.config
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\Distribuidora.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\Distribuidora.pdb
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.csprojResolveAssemblyReference.cache
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.pdb
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\Distribuidora\bin\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\csc.exe
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\vbc.exe
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\Distribuidora.dll.config
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\Distribuidora.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\Distribuidora.pdb
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\obj\Debug\Distribuidora.csprojResolveAssemblyReference.cache
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\obj\Debug\Distribuidora.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\Distribuidora\obj\Debug\Distribuidora.pdb

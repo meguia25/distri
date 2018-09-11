@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Maestra.master.cs" Inherits="Distribuidora.Maestra" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400"/> 
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"/>          
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>                                
+    <link rel="stylesheet" href="css/magnific-popup.css"/>                               
+    <link rel="stylesheet" href="css/templatemo-style.css"/>  
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <section id="welcome" class="tm-content-box tm-banner margin-b-10">
+        <div class="tm-banner-inner">
+            <h1 class="tm-banner-title">Area 50</h1>
+            <asp:Label ID="lblQ" runat="server" class="tm-section-title" Text="PaintBall Uruguay"/>
+        </div>
+        </section>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
+    

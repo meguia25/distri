@@ -1,0 +1,35 @@
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
+G:\Distribuidora\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+G:\Distribuidora\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+G:\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
+G:\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+G:\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
+L:\Programacion tres\obligatorioMJ\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
+L:\Programacion tres\obligatorioMJ\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+L:\Programacion tres\obligatorioMJ\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
+L:\Programacion tres\obligatorioMJ\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+L:\Programacion tres\obligatorioMJ\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+G:\Programacion tres\obligatorioMJ\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+G:\Programacion tres\obligatorioMJ\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+G:\Programacion tres\obligatorioMJ\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
+G:\Programacion tres\obligatorioMJ\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+G:\Programacion tres\obligatorioMJ\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb

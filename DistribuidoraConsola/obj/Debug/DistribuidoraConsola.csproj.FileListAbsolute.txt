@@ -1,0 +1,43 @@
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.exe.config
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.exe
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.pdb
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.exe
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.pdb
+C:\Users\Mariana Eguia\Documents\Visual Studio 2015\Projects\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.csprojResolveAssemblyReference.cache
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.exe.config
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.exe
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.pdb
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.exe
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.pdb
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Jimmy\Desktop\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.csprojResolveAssemblyReference.cache
+G:\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.exe.config
+G:\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.exe
+G:\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.pdb
+D:\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.exe.config
+D:\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.exe
+D:\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.pdb
+G:\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.exe
+G:\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.pdb
+G:\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraDominio.dll
+G:\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraDominio.pdb
+G:\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.csprojResolveAssemblyReference.cache
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.exe.config
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.exe
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.pdb
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.exe
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.pdb
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraConsola\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Desktop\Programacion Tes\Obligatorio\Distribuidora\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.csprojResolveAssemblyReference.cache
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.exe.config
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.exe
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.pdb
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.exe
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraConsola\bin\Debug\DistribuidoraConsola.pdb
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraConsola\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraConsola\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\obligatorio\DistribuidoraConsola\obj\Debug\DistribuidoraConsola.csprojResolveAssemblyReference.cache
