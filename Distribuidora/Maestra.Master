@@ -17,8 +17,8 @@
 <body>
     <section id="welcome" class="tm-content-box tm-banner margin-b-10">
         <div class="tm-banner-inner">
-            <h1 class="tm-banner-title">Area 50</h1>
-            <asp:Label ID="lblQ" runat="server" class="tm-section-title" Text="PaintBall Uruguay"/>
+            <h1 class="tm-banner-title">Distribuidora</h1>
+            <asp:Label ID="lblQ" runat="server" class="tm-section-title" Text="Distribuidora"/>
         </div>
         </section>
     <form id="form1" runat="server">
