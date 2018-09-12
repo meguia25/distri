@@ -106,5 +106,50 @@ namespace DistribuidoraDominio
 
         }
         #endregion
+
+        #region ActiveRecord
+        public bool Insertar()
+        {
+            SqlConnection cn = Conexion.CrearConexion();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = cn;
+            cmd.CommandText = @"INSERT INTO DProducto VALUES(@codigo,@nombre,@descripcion,@costo,@preciosug,@tiem,@lista)";
+            cmd.Parameters.Add(new SqlParameter("@codigo", this.Codigo));
+            cmd.Parameters.Add(new SqlParameter("@nombre", this.Nombre));
+            cmd.Parameters.Add(new SqlParameter("@descripcion", this.Descripcion));
+            cmd.Parameters.Add(new SqlParameter("@costo", this.Costo));
+            cmd.Parameters.Add(new SqlParameter("@preciosug", this.PrecioSugerido));
+            cmd.Parameters.Add(new SqlParameter("@tiem", this.PrecioSugerido));
+            cmd.Parameters.Add(new SqlParameter("@lista", this.PrecioSugerido));
+
+            try
+            {
+                Conexion.AbrirConexion(cn);
+                int filas = cmd.ExecuteNonQuery();
+                if (filas == 1) return true;
+                return false;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Assert(false, "Error: " +
+                    ex.Message);
+                return false;
+            }
+            finally
+            {
+                Conexion.CerrarConexion(cn);
+            }
+        }
+
+        public bool Eliminar()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Modificar()
+        {
+            throw new NotImplementedException();
+        }
+        #endregion
     }
 }

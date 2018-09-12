@@ -15,6 +15,7 @@ namespace Distribuidora
             TxtTiempo.Visible = false;
             TxtCantMinima.Visible = false;
             TxtPaisOrigen.Visible = false;
+
         }
         protected void BtnAlta_Click(object sender, EventArgs e)
         {
@@ -33,19 +34,41 @@ namespace Distribuidora
             bool fabricado = this.RdbFabricado.Checked;
             bool importado = this.RdbImportado.Checked;
 
-            //altaProducto = pro.Insertar();      
+            if (fabricado)
+            {
+                altaProducto = fab.Insertar();
+            }
+            else if (importado)
+            {
+                altaProducto = imp.Insertar();
+            }  
 
         }
 
         protected void RdbFabricado_CheckedChanged(object sender, EventArgs e)
-        {
-            TxtTiempo.Visible = true;
+        {          
+            if (RdbFabricado.Checked)
+            {
+                TxtTiempo.Visible = true;
+            }
+            else
+            {
+                TxtTiempo.Visible = false;
+            }
+
         }
 
         protected void RdbImportado_CheckedChanged(object sender, EventArgs e)
-        {
-            TxtCantMinima.Visible = true;
-            TxtPaisOrigen.Visible = true;
+        {                 
+            if (RdbImportado.Checked)
+            {
+                TxtCantMinima.Visible = true;
+                TxtPaisOrigen.Visible = true;
+            }
+            else{
+                TxtCantMinima.Visible = false;
+                TxtPaisOrigen.Visible = false;
+            }
         }
     }
 }
