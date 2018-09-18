@@ -12,14 +12,14 @@ namespace Distribuidora
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            TxtTiempo.Visible = false;
-            TxtCantMinima.Visible = false;
-            TxtPaisOrigen.Visible = false;
+            //TxtTiempo.Visible = false;
+            //TxtCantMinima.Visible = false;
+            //TxtPaisOrigen.Visible = false;
 
         }
         protected void BtnAlta_Click(object sender, EventArgs e)
         {
-            //Producto pro = new Producto();
+            
             Fabricado fab = new Fabricado();
             Importado imp = new Importado();
 
@@ -43,32 +43,6 @@ namespace Distribuidora
                 altaProducto = imp.Insertar();
             }  
 
-        }
-
-        protected void RdbFabricado_CheckedChanged(object sender, EventArgs e)
-        {          
-            if (RdbFabricado.Checked)
-            {
-                TxtTiempo.Visible = true;
-            }
-            else
-            {
-                TxtTiempo.Visible = false;
-            }
-
-        }
-
-        protected void RdbImportado_CheckedChanged(object sender, EventArgs e)
-        {                 
-            if (RdbImportado.Checked)
-            {
-                TxtCantMinima.Visible = true;
-                TxtPaisOrigen.Visible = true;
-            }
-            else{
-                TxtCantMinima.Visible = false;
-                TxtPaisOrigen.Visible = false;
-            }
-        }
+        }   
     }
 }

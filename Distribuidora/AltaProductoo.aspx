@@ -34,11 +34,11 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TxtTiempo" ErrorMessage="Campo obligatorio">*</asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
-                <asp:TextBox class="form-control" runat="server" ID="TxtPaisOrigen" Text="Tiempo"/>
+                <asp:TextBox class="form-control" runat="server" ID="TxtPaisOrigen" Text="Pais Origen"/>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TxtPaisOrigen" ErrorMessage="Campo obligatorio">*</asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
-                <asp:TextBox class="form-control" runat="server" ID="TxtCantMinima" Text="Tiempo"/>
+                <asp:TextBox class="form-control" runat="server" ID="TxtCantMinima" Text="Cantidad minima"/>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="TxtCantMinima" ErrorMessage="Campo obligatorio">*</asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
