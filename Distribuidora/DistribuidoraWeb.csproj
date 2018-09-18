@@ -69,8 +69,17 @@
     <Content Include="AltaEmpleadoo.aspx" />
     <Content Include="AltaProductoo.aspx" />
     <Content Include="AsignacionEmpProdd.aspx" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\templatemo-style.css" />
+    <Content Include="font-awesome-4.6.3\HELP-US-OUT.txt" />
     <Content Include="InicioLoginn.aspx" />
+    <Content Include="js\JavaScript.js" />
+    <Content Include="js\jquery-1.11.3.min.js" />
+    <Content Include="js\jquery.magnific-popup.min.js" />
+    <Content Include="js\jquery.singlePageNav.min.js" />
     <Content Include="ListadoProdFabb.aspx" />
+    <Content Include="Menu.aspx" />
     <Content Include="packages.config" />
     <Content Include="Maestra.Master" />
     <None Include="Web.Debug.config">
@@ -126,6 +135,13 @@
     <Compile Include="Maestra.Master.designer.cs">
       <DependentUpon>Maestra.Master</DependentUpon>
     </Compile>
+    <Compile Include="Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -135,10 +151,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="font-awesome-4.6.3\" />
-    <Folder Include="img\" />
-    <Folder Include="js\" />
+    <Folder Include="font-awesome-4.6.3\css\" />
+    <Folder Include="font-awesome-4.6.3\fonts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

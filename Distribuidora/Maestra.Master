@@ -4,7 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>           
+    <script src="js/jquery-1.11.3.min.js"></script>            
+    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> 
+    <script src="js/jquery.magnific-popup.min.js"></script> 
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script rel="text/javascript" src="js/Javascript.js"> </script>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400"/> 
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"/>          
     <link rel="stylesheet" href="css/bootstrap.min.css"/>                                
@@ -18,7 +23,7 @@
     <section id="welcome" class="tm-content-box tm-banner margin-b-10">
         <div class="tm-banner-inner">
             <h1 class="tm-banner-title">Distribuidora</h1>
-            <asp:Label ID="lblQ" runat="server" class="tm-section-title" Text="Distribuidora"/>
+            <asp:Label ID="lblQ" runat="server" class="tm-section-title" Text=""/>
         </div>
         </section>
     <form id="form1" runat="server">

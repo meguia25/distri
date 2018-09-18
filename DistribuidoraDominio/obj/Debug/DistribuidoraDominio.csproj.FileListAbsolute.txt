@@ -33,3 +33,8 @@ G:\Programacion tres\obligatorioMJ\DistribuidoraDominio\bin\Debug\DistribuidoraD
 G:\Programacion tres\obligatorioMJ\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
 G:\Programacion tres\obligatorioMJ\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
 G:\Programacion tres\obligatorioMJ\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Desktop\distri\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Desktop\distri\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Desktop\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
+C:\Users\Mariana Eguia\Desktop\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Desktop\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
