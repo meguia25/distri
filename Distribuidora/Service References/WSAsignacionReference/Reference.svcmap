@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="af2618a9-d840-41f1-9157-404877d44448" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49054/ServicioAsignacionTecnico.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioAsignacionTecnico.xsd" MetadataType="Schema" ID="68aaca4f-c510-4f6d-b9fe-cd1b4c7875fb" SourceId="1" SourceUrl="http://localhost:49054/ServicioAsignacionTecnico.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioAsignacionTecnico1.xsd" MetadataType="Schema" ID="ef017930-4b2c-41ca-9ed4-0899e8c22aae" SourceId="1" SourceUrl="http://localhost:49054/ServicioAsignacionTecnico.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioAsignacionTecnico.disco" MetadataType="Disco" ID="af178c9c-b377-442e-a775-2c94ccea9215" SourceId="1" SourceUrl="http://localhost:49054/ServicioAsignacionTecnico.svc?disco" />
+    <MetadataFile FileName="ServicioAsignacionTecnico.wsdl" MetadataType="Wsdl" ID="c1e431c7-715e-44a1-ad5a-8d53dc8cf9c4" SourceId="1" SourceUrl="http://localhost:49054/ServicioAsignacionTecnico.svc?wsdl" />
+    <MetadataFile FileName="ServicioAsignacionTecnico2.xsd" MetadataType="Schema" ID="b19ac555-5706-4dd9-bc08-f0d558fd7bd7" SourceId="1" SourceUrl="http://localhost:49054/ServicioAsignacionTecnico.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

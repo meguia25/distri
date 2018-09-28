@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6d23686f-36fa-4090-b073-e0109ae3db78" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49054/ServicioListadoProdFab.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioListadoProdFab.xsd" MetadataType="Schema" ID="0be2b38a-f5a3-4147-a256-ed3202548ef2" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoProdFab.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioListadoProdFab.wsdl" MetadataType="Wsdl" ID="219f99e3-7f69-4a24-9f9b-9440fad94643" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoProdFab.svc?wsdl" />
+    <MetadataFile FileName="ServicioListadoProdFab1.xsd" MetadataType="Schema" ID="566cb787-ff05-4a1f-bdd9-1dbe08eda741" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoProdFab.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioListadoProdFab2.xsd" MetadataType="Schema" ID="6a31a995-4b95-4928-a63a-2eca466e325d" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoProdFab.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioListadoProdFab.disco" MetadataType="Disco" ID="602e11ac-232d-4935-b36c-2ffe34c96feb" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoProdFab.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

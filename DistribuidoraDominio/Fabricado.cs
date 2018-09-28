@@ -79,6 +79,40 @@ namespace DistribuidoraDominio
                 Conexion.CerrarConexion(cn);
             }
         }
+        public static IEnumerable<Fabricado> FindFabricadoByEmail(string email)
+        {
+            List<Fabricado> ListaF = new List<Fabricado>();
+            //Preparar el comando
+            string cadenaComando =
+                @"SELECT * FROM DFabricado F JOIN DProducto P ON P.Codigo = F.Codigo WHERE P.EmpleadoAlta = '" + email + "'";
+            Conexion objetoConexion = new Conexion();
+            SqlConnection cn = Conexion.CrearConexion();
+            SqlCommand cmd = new SqlCommand
+                (cadenaComando, (SqlConnection)cn);
+
+            try
+            {
+                Conexion.AbrirConexion(cn);
+                IDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    Fabricado f = CargarDesdeRegistro(dr);
+                    if (f != null)
+                        ListaF.Add(f);
+                }
+                return ListaF;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Assert(false, "Error: " +
+                    ex.Message);
+                return null;
+            }
+            finally
+            {
+                Conexion.CerrarConexion(cn);
+            }
+        }
 
         public static Fabricado CargarDesdeRegistro(IDataRecord dr)
         {
@@ -119,7 +153,7 @@ namespace DistribuidoraDominio
             cmd.Parameters.Add(new SqlParameter("@descripcion", this.Descripcion));
             cmd.Parameters.Add(new SqlParameter("@costo", this.Costo));
             cmd.Parameters.Add(new SqlParameter("@preciosug", this.PrecioSugerido));
-           // cmd.Parameters.Add(new SqlParameter("@empleado", this.Environment.UserName)); //Esta bien?
+            //cmd.Parameters.Add(new SqlParameter("@empleado", this.email)); //Esta bien?
             cmd.CommandText = @"INSERT INTO DFabricado VALUES(@tiem,@lista)";
             cmd.Parameters.Add(new SqlParameter("@tiem", this.PrecioSugerido));
             cmd.Parameters.Add(new SqlParameter("@lista", this.PrecioSugerido));

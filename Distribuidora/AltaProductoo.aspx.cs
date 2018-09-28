@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DistribuidoraDominio;
+
 
 namespace Distribuidora
 {
@@ -15,13 +15,15 @@ namespace Distribuidora
             //TxtTiempo.Visible = false;
             //TxtCantMinima.Visible = false;
             //TxtPaisOrigen.Visible = false;
+            String u = (string)Session["empleado"];
 
         }
         protected void BtnAlta_Click(object sender, EventArgs e)
         {
-            
-            Fabricado fab = new Fabricado();
-            Importado imp = new Importado();
+
+            String u = (string)Session["empleado"];
+            //Fabricado fab = new Fabricado();
+            //Importado imp = new Importado();
 
             bool altaProducto = false;
 
@@ -36,13 +38,18 @@ namespace Distribuidora
 
             if (fabricado)
             {
-                altaProducto = fab.Insertar();
+                //altaProducto = fab.Insertar();
             }
             else if (importado)
             {
-                altaProducto = imp.Insertar();
+                //altaProducto = imp.Insertar();
             }  
 
-        }   
+        }
+
+        protected void BtnVolver_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Menu.aspx");
+        }
     }
 }

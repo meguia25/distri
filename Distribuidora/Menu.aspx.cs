@@ -33,5 +33,9 @@ namespace Distribuidora
             Response.Redirect("ListadoProdFabb.aspx");
         }
 
+        protected void BtnListadoProd_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ListadoTodosProductos.aspx");
+        }
     }
 }

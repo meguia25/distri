@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace DistribuidoraDominio
 {
-    public class Empleado : IActiveRecord
+    public class Empleado: IActiveRecord
     {
         #region Atributos
 
@@ -49,6 +49,7 @@ namespace DistribuidoraDominio
         }
         #endregion
 
+
         #region ActiveRecord
         public bool Insertar()
         {
@@ -83,12 +84,14 @@ namespace DistribuidoraDominio
         {
             throw new NotImplementedException();
         }
-        
+
         public bool Modificar()
         {
             throw new NotImplementedException();
         }
         #endregion
+
+        #region Otros metodos
 
         public static bool ValidarUsuario(string email, string contrasenia)
         {
@@ -123,6 +126,57 @@ namespace DistribuidoraDominio
                 Conexion.CerrarConexion(cn);
             }
         }
+
+        public static IEnumerable<Empleado> FindAll()
+        {
+            List<Empleado> ListaE = new List<Empleado>();
+            //Preparar el comando
+            string cadenaComando =
+                @"SELECT * FROM DEmpleado";
+            Conexion objetoConexion = new Conexion();
+            SqlConnection cn = Conexion.CrearConexion();
+            SqlCommand cmd = new SqlCommand
+                (cadenaComando, (SqlConnection)cn);
+
+            try
+            {
+                Conexion.AbrirConexion(cn);
+                IDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    Empleado e = CargarDesdeRegistro(dr);
+                    if (e != null)
+                        ListaE.Add(e);
+                }
+                return ListaE;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Assert(false, "Error: " +
+                    ex.Message);
+                return null;
+            }
+            finally
+            {
+                Conexion.CerrarConexion(cn);
+            }
+        }
+
+        public static Empleado CargarDesdeRegistro(IDataRecord dr)
+        {
+
+            Empleado e = new Empleado
+            {
+                Nombre = dr["Nombre"] == DBNull.Value ?
+                                                            "No tiene nombre" :
+                                                            dr["Nombre"].ToString(),
+            };
+            return e;
+
+        }
+        #endregion
+
+
 
     }
 }

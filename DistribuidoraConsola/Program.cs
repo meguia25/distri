@@ -13,8 +13,8 @@ namespace DistribuidoraConsola
         {
             Empleado e = new Empleado
             {
-                Nombre= "Fulano",
-                Email= "fulano@gmail.com",
+                Nombre= "Marii",
+                Email= "guio@gmail.com",
                 Contrasenia= "123"
             };
             if (e.Insertar())

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DistribuidoraDominio;
+using Distribuidora.ServiceReferenceListadoProdFab;
 
 namespace Distribuidora
 {
@@ -12,17 +12,23 @@ namespace Distribuidora
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Listar();
-        }
+            using (ServiceReferenceListadoProdFab.ListadoProdFabServiceClient clienteProxyDelServicio = new ListadoProdFabServiceClient())
+            {
+                var listado = clienteProxyDelServicio.listado();
+                //Session["email"].ToString()
+                GridView1.DataSource = listado;
+                GridView1.DataBind();
+            }
 
-        public void Listar()
-        {
-            GridView1.DataSource = Fabricado.FindAll();
-            GridView1.DataBind();
+            //ServiceReferenceListadoProdFab.ListadoProdFabServiceClient clienteProxyDelServicio = new ListadoProdFabServiceClient();//este es el cliente que sabe còmo usar el servicio, no devuelve una lista
+            //clienteProxyDelServicio.Open();
+            //var listado = clienteProxyDelServicio.listado();
+            //clienteProxyDelServicio//aca tenemos que acceder al mètodo que devuelve un IEnumerable de DTO
+            //Listar();
         }
-        protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
+        protected void BtnVolver_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Menu.aspx");
         }
     }
 }

@@ -4,7 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DistribuidoraDominio;
+using Distribuidora.WFEmpleadoReference;
+
 
 namespace Distribuidora
 {
@@ -12,6 +13,9 @@ namespace Distribuidora
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            EmpleadoServiceClient clienteProxyDelServicio = new EmpleadoServiceClient();
+            clienteProxyDelServicio.Open();
+            
 
         }
         protected void BtnAlta_Click(object sender, EventArgs e)
@@ -23,15 +27,19 @@ namespace Distribuidora
             string contrasenia = this.TxtContrasenia.Text;
             string email = this.TxtContrasenia.Text;
 
-            Empleado emp = new Empleado
-            {
-                Nombre = nombre,
-                Contrasenia = contrasenia,
-                Email = email
-            };
+            //Empleado emp = new Empleado
+            //{
+            //    Nombre = nombre,
+            //    Contrasenia = contrasenia,
+            //    Email = email
+            //};
 
-            altaEmpleado = emp.Insertar();
 
+        }
+
+        protected void BtnVolver_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Menu.aspx");
         }
     }
 }

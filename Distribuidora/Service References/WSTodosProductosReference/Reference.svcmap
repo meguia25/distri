@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2c5057bc-9d13-4c6a-9189-9900bc36a77e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49054/ServicioListadoTodosProducto.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioListadoTodosProducto.xsd" MetadataType="Schema" ID="1728eea1-329f-4b64-94fb-30cd9dad7fdd" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoTodosProducto.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioListadoTodosProducto1.xsd" MetadataType="Schema" ID="f73e4db4-c600-4f21-aef7-31985dad426f" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoTodosProducto.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioListadoTodosProducto.disco" MetadataType="Disco" ID="67ab7d36-5d54-4fd9-87bb-2243520d8afc" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoTodosProducto.svc?disco" />
+    <MetadataFile FileName="ServicioListadoTodosProducto2.xsd" MetadataType="Schema" ID="57d2ca05-9493-4c4b-aae6-dbf69a887f53" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoTodosProducto.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioListadoTodosProducto.wsdl" MetadataType="Wsdl" ID="f745bcdf-a961-4813-b239-b6d0657a9001" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoTodosProducto.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

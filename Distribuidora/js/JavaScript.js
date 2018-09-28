@@ -14,8 +14,10 @@
         $("#ContentPlaceHolder1_TxtCantMinima").hide();
     })
     importado.change(function () {
-        $("#ContentPlaceHolder1_TxtTiempo").show();
-        $("#ContentPlaceHolder1_TxtPaisOrigen").hide();
-        $("#ContentPlaceHolder1_TxtCantMinima").hide();
+        $("#ContentPlaceHolder1_TxtTiempo").hide();
+        $("#ContentPlaceHolder1_TxtPaisOrigen").show();
+        $("#ContentPlaceHolder1_TxtCantMinima").show();
     })
+
+
 });

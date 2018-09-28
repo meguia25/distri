@@ -19,8 +19,9 @@ namespace DistribuidoraDominio
             return new SqlConnection(@"SERVER=LAPTOP-GUDD2GCN;DATABASE=BDDistribuidora;INTEGRATED SECURITY=TRUE;");
             //en la facultad
             //return new SqlConnection(@"SERVER=(local);DATABASE=BDDistribuidora;INTEGRATED SECURITY=TRUE;");
-            //compu Jennifer - no anda
+            //compu Jennifer 
             //return new SqlConnection(@"SERVER=DESKTOP-KOK8NDO\SQLEXPRESS;DATABASE=BDDistribuidora;INTEGRATED SECURITY=TRUE;");
+            //return new SqlConnection(@"SERVER=TORETE\SQLEXPRESS;DATABASE=BDDistribuidora;INTEGRATED SECURITY=TRUE;");
         }
 
         public static bool CerrarConexion(SqlConnection unaConexion)

@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DistribuidoraDominio;
 
+
 namespace Distribuidora
 {
     public partial class InicioLoginn : System.Web.UI.Page
@@ -26,8 +27,8 @@ namespace Distribuidora
             else
             {
                 e.Authenticated = true;
-                Response.Redirect("ListadoProdFab.aspx");
-
+                Session["empleado"] = Login1.UserName;
+                Response.Redirect("Menu.aspx");
             }
         }
     }

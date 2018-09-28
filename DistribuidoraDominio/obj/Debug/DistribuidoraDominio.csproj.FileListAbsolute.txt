@@ -38,3 +38,22 @@ C:\Users\Mariana Eguia\Desktop\distri\DistribuidoraDominio\bin\Debug\Distribuido
 C:\Users\Mariana Eguia\Desktop\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
 C:\Users\Mariana Eguia\Desktop\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
 C:\Users\Mariana Eguia\Desktop\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\Facultad\distri\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\Facultad\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
+C:\Users\Mariana Eguia\Documents\Facultad\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
+C:\Users\Claudio\Desktop\distri\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Claudio\Desktop\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
+C:\Users\Claudio\Desktop\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraDominio\bin\Debug\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.csprojResolveAssemblyReference.cache
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraDominio\obj\Debug\DistribuidoraDominio.pdb

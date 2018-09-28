@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace DistribuidoraDominio
@@ -53,7 +54,7 @@ namespace DistribuidoraDominio
         {
 
         }
-        public Producto(int codigo,string nombre, string descripcion, double costo, double precioSugerido)
+        public Producto(int codigo, string nombre, string descripcion, double costo, double precioSugerido)
         {
             this.nombre = nombre;
             this.codigo = codigo;
@@ -76,6 +77,60 @@ namespace DistribuidoraDominio
         public bool Modificar()
         {
             throw new NotImplementedException();
+        }
+
+        public static IEnumerable<Producto> FindAllProductos()
+        {
+            List<Producto> listaP = new List<Producto>();
+            //Preparar el comando
+            string cadenaComando =
+                @"SELECT * FROM DProducto";
+            Conexion objetoConexion = new Conexion();
+            SqlConnection cn = Conexion.CrearConexion();
+            SqlCommand cmd = new SqlCommand
+                (cadenaComando, (SqlConnection)cn);
+
+            try
+            {
+                Conexion.AbrirConexion(cn);
+                IDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    Producto p = CargarDesdeRegistro(dr);
+                    if (p != null)
+                        listaP.Add(p);
+                }
+                return listaP;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Assert(false, "Error: " +
+                    ex.Message);
+                return null;
+            }
+            finally
+            {
+                Conexion.CerrarConexion(cn);
+            }
+        }
+        public static Producto CargarDesdeRegistro(IDataRecord dr)
+        {
+
+            Producto p = null;
+            if (dr != null)
+            {
+                p = new Fabricado
+                {
+
+                    Codigo = dr["Codigo"] == DBNull.Value ? 0 : Convert.ToInt32(dr["Codigo"]),
+                    Nombre = dr["Nombre"] == DBNull.Value ? "No tiene nombre" : dr["Nombre"].ToString(),
+                    Descripcion = dr["Descripcion"] == DBNull.Value ? "No tiene descripción" :
+                                                            dr["Descripcion"].ToString(),
+                };
+
+            }
+            return p;
+
         }
     }
 }

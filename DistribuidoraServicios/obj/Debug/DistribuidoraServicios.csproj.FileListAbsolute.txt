@@ -1,0 +1,63 @@
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\ApplicationInsights.config
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\DistribuidoraServicios.dll.config
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\DistribuidoraServicios.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\DistribuidoraServicios.pdb
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\DistribuidoraDominio.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.AI.Web.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\DistribuidoraDominio.pdb
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.AI.Web.xml
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\obj\Debug\DistribuidoraServicios.csprojResolveAssemblyReference.cache
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\obj\Debug\DistribuidoraServicios.dll
+C:\Users\alumnoFI\Downloads\distri\DistribuidoraServicios\obj\Debug\DistribuidoraServicios.pdb
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\ApplicationInsights.config
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\DistribuidoraServicios.dll.config
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\DistribuidoraServicios.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\DistribuidoraServicios.pdb
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\DistribuidoraDominio.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.AI.Web.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\DistribuidoraDominio.pdb
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.AI.Web.xml
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\obj\Debug\DistribuidoraServicios.csprojResolveAssemblyReference.cache
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\obj\Debug\DistribuidoraServicios.dll
+C:\Users\Claudio\Desktop\distri\DistribuidoraServicios\obj\Debug\DistribuidoraServicios.pdb
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\ApplicationInsights.config
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\DistribuidoraServicios.dll.config
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\DistribuidoraServicios.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\DistribuidoraServicios.pdb
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\DistribuidoraDominio.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.AI.Web.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\DistribuidoraDominio.pdb
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.AI.Web.xml
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\obj\Debug\DistribuidoraServicios.csprojResolveAssemblyReference.cache
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\obj\Debug\DistribuidoraServicios.dll
+C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\DistribuidoraServicios\obj\Debug\DistribuidoraServicios.pdb
