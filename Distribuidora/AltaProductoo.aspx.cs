@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Distribuidora.WSProductoReference;
 
 
 namespace Distribuidora
@@ -22,28 +23,35 @@ namespace Distribuidora
         {
 
             String u = (string)Session["empleado"];
-            //Fabricado fab = new Fabricado();
-            //Importado imp = new Importado();
 
             bool altaProducto = false;
 
             int codigo = int.Parse(this.TxtCodigo.Text);
             string nombre = this.TxtNombre.Text;
-            string contrasenia = this.TxtDescripcion.Text;
+            string descripcion = this.TxtDescripcion.Text;
             double costo = double.Parse(this.TxtCosto.Text);
             double precioSugerido = double.Parse(this.TxtPrecioSugerido.Text);
+            string paisOrigen = this.TxtPaisOrigen.Text;
+            int cantMinima = int.Parse(this.TxtCantMinima.Text);
 
             bool fabricado = this.RdbFabricado.Checked;
             bool importado = this.RdbImportado.Checked;
 
-            if (fabricado)
+            using(WSProductoReference.ProductoServiceClient clienteProxyDelServicio = new ProductoServiceClient())
             {
-                //altaProducto = fab.Insertar();
+                if (fabricado)
+                {
+                   
+                }
+                else if (importado)
+                {
+                    altaProducto = clienteProxyDelServicio.insertarImportado(codigo, nombre, descripcion, costo, precioSugerido, paisOrigen, cantMinima);
+                    LblMensaje.Text = "Alta de producto importado correcta";
+                };
+
+
             }
-            else if (importado)
-            {
-                //altaProducto = imp.Insertar();
-            }  
+
 
         }
 

@@ -19,5 +19,13 @@
         $("#ContentPlaceHolder1_TxtCantMinima").show();
     })
 
+    var botonEmpleado = ContentPlaceHolder1_BtnAlta;
+
+    botonEmpleado.onClick = function () {
+        $("#ContentPlaceHolder1_TxtNombre").value = "";
+        $("#ContentPlaceHolder1_TxtContrasenia").value = "";
+        $("#ContentPlaceHolder1_TxtEmail").value = "";
+    };
+
 
 });

@@ -56,6 +56,7 @@ namespace DistribuidoraDominio
             cmd.Parameters.Add(new SqlParameter("@descripcion", this.Descripcion));
             cmd.Parameters.Add(new SqlParameter("@costo", this.Costo));
             cmd.Parameters.Add(new SqlParameter("@preciosug", this.PrecioSugerido));
+            cmd.CommandText = @"INSERT INTO DImportado VALUES(@codigo,@paisOri,@cantMin)";
             cmd.Parameters.Add(new SqlParameter("@paisOri", this.PrecioSugerido));
             cmd.Parameters.Add(new SqlParameter("@cantMin", this.PrecioSugerido));
 

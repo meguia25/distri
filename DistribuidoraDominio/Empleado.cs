@@ -37,16 +37,17 @@ namespace DistribuidoraDominio
         #endregion
 
         #region Constructor
-        public Empleado()
-        {
-
-        }
-        public Empleado(string nombre, string contrasenia, string email)
+                public Empleado(string nombre, string contrasenia, string email)
         {
             this.nombre = nombre;
             this.email = email;
             this.contrasenia = contrasenia;
         }
+        public Empleado()
+        {
+
+        }
+
         #endregion
 
 

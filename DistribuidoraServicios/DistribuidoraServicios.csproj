@@ -92,7 +92,6 @@
     <Content Include="ServicioAsignacionTecnico.svc" />
     <Content Include="ServicioListadoProdFab.svc" />
     <Content Include="ServicioEmpleado.svc" />
-    <Content Include="Service1.svc" />
     <Content Include="ServicioListadoTodosProducto.svc" />
     <Content Include="ServicioProducto.svc" />
     <Content Include="Web.config" />
@@ -102,10 +101,10 @@
     <Compile Include="DTOListadoProdFab.cs" />
     <Compile Include="DTOEmpleado.cs" />
     <Compile Include="DTOListadoTodosProducto.cs" />
-    <Compile Include="DTOProducto.cs" />
     <Compile Include="IAsignacionTecnico.cs" />
     <Compile Include="IListadoProdFabService.cs" />
     <Compile Include="IListadoTodosProducto.cs" />
+    <Compile Include="IProductoService.cs" />
     <Compile Include="ServicioAsignacionTecnico.svc.cs">
       <DependentUpon>ServicioAsignacionTecnico.svc</DependentUpon>
     </Compile>
@@ -116,10 +115,6 @@
       <DependentUpon>ServicioEmpleado.svc</DependentUpon>
     </Compile>
     <Compile Include="IEmpleadoService.cs" />
-    <Compile Include="IProductoService.cs" />
-    <Compile Include="Service1.svc.cs">
-      <DependentUpon>Service1.svc</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServicioListadoTodosProducto.svc.cs">
       <DependentUpon>ServicioListadoTodosProducto.svc</DependentUpon>

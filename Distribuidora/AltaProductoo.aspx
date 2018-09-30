@@ -10,23 +10,23 @@
             </div>
             <h2 class="tm-section-title">Alta Producto</h2>
             <div class="form-group">
-                <asp:TextBox ID="TxtCodigo" runat="server" Text="Codigo" />
+                <asp:TextBox ID="TxtCodigo" class="form-control" runat="server" Text="Codigo" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TxtCodigo" ErrorMessage="Campo obligatorio">*</asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
-                <asp:TextBox ID="TxtNombre" runat="server" Text="Nombre" />
+                <asp:TextBox ID="TxtNombre" class="form-control" runat="server" Text="Nombre" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TxtNombre" ErrorMessage="Campo obligatorio">*</asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
-                <asp:TextBox runat="server" ID="TxtDescripcion" Text="Descripción" />
+                <asp:TextBox runat="server" class="form-control" ID="TxtDescripcion" Text="Descripción" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TxtDescripcion" ErrorMessage="Campo obligatorio">*</asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
-                <asp:TextBox runat="server" ID="TxtCosto" Text="Costo" />
+                <asp:TextBox runat="server" class="form-control" ID="TxtCosto" Text="Costo" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TxtCosto" ErrorMessage="Campo obligatorio">*</asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
-                <asp:TextBox runat="server" ID="TxtPrecioSugerido" Text="Precio de venta sugerido" />
+                <asp:TextBox runat="server" class="form-control" ID="TxtPrecioSugerido" Text="Precio de venta sugerido" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TxtPrecioSugerido" ErrorMessage="Campo obligatorio">*</asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
@@ -34,15 +34,15 @@
                 <asp:RadioButton ID="RdbImportado" runat="server" GroupName="TipoProducto" Text="Importado"/>
             </div>
             <div class="form-group">
-                <asp:TextBox runat="server" ID="TxtTiempo" Text="Tiempo" />
+                <asp:TextBox runat="server" class="form-control" ID="TxtTiempo" Text="Tiempo" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TxtTiempo" ErrorMessage="Campo obligatorio">*</asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
-                <asp:TextBox runat="server" ID="TxtPaisOrigen" Text="Pais Origen" />
+                <asp:TextBox runat="server" class="form-control" ID="TxtPaisOrigen" Text="Pais Origen" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TxtPaisOrigen" ErrorMessage="Campo obligatorio">*</asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
-                <asp:TextBox runat="server" ID="TxtCantMinima" Text="Cantidad minima" />
+                <asp:TextBox runat="server" class="form-control" ID="TxtCantMinima" Text="Cantidad minima" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="TxtCantMinima" ErrorMessage="Campo obligatorio">*</asp:RequiredFieldValidator>
             </div>
             <div class="form-group">

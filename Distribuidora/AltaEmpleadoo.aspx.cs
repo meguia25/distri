@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Distribuidora.WFEmpleadoReference;
+using Distribuidora.WSReferenceEmpleado;
 
 
 namespace Distribuidora
@@ -13,8 +13,6 @@ namespace Distribuidora
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            EmpleadoServiceClient clienteProxyDelServicio = new EmpleadoServiceClient();
-            clienteProxyDelServicio.Open();
             
 
         }
@@ -25,16 +23,17 @@ namespace Distribuidora
 
             string nombre = this.TxtNombre.Text;
             string contrasenia = this.TxtContrasenia.Text;
-            string email = this.TxtContrasenia.Text;
-
-            //Empleado emp = new Empleado
-            //{
-            //    Nombre = nombre,
-            //    Contrasenia = contrasenia,
-            //    Email = email
-            //};
-
-
+            string email = this.TxtEmail.Text;
+            using(WSReferenceEmpleado.EmpleadoServiceClient clienteProxyDelServicio = new EmpleadoServiceClient())
+            {
+                altaEmpleado = clienteProxyDelServicio.InsertarEmpleado(nombre, contrasenia, email);
+                LblMensaje.Text = "Alta de empleado correcta";
+            } 
+            if(!altaEmpleado)
+            {
+                LblMensaje.Text = "Alta de empleado incorrecta, verifique datos";
+            }
+                       
         }
 
         protected void BtnVolver_Click(object sender, EventArgs e)

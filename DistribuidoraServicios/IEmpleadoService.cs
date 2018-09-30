@@ -13,6 +13,6 @@ namespace DistribuidoraServicios
     public interface IEmpleadoService
     {
         [OperationContract]
-        bool InsertarEmpleado();
+        bool InsertarEmpleado(string nombre, string contrasenia, string email);
     }
 }

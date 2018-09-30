@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
-//importamos este ultimo servicemodel
+using System.Runtime.Serialization;
+using DistribuidoraDominio;
+
 namespace DistribuidoraServicios
 {
-    //hacemos la interfaz publica
-   public interface IProductoService
+    [ServiceContract]
+    interface IProductoService
     {
-        //Aca incluimos la firma de los metodos que queremos que incluya
-        //por ejemplo ObtenerProductos
+        [OperationContract]
+        bool insertarImportado(int codigo, string nombre, string descripcion, double costo, double precioSugerido, string paisOrigen, int cantMinima);
+
     }
 }

@@ -98,19 +98,6 @@
     <None Include="Service References\ServiceReferenceListadoProdFab\ServicioListadoProdFab2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <Content Include="Service References\WFEmpleadoReference\Distribuidora.WFEmpleadoReference.DTOEmpleado.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <None Include="Service References\WFEmpleadoReference\ServicioEmpleado.wsdl" />
-    <None Include="Service References\WFEmpleadoReference\ServicioEmpleado.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\WFEmpleadoReference\ServicioEmpleado1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\WFEmpleadoReference\ServicioEmpleado2.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <Content Include="Service References\WSAsignacionReference\Distribuidora.WSAsignacionReference.DTOAsignacionTecnico.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -118,6 +105,27 @@
     <None Include="Service References\WSAsignacionReference\configuration91.svcinfo" />
     <None Include="Service References\WSAsignacionReference\configuration.svcinfo" />
     <None Include="Service References\WSAsignacionReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\WSProductoReference\ServicioProducto.wsdl" />
+    <None Include="Service References\WSProductoReference\ServicioProducto.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WSProductoReference\ServicioProducto1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WSReferenceEmpleado\ServicioEmpleado.disco" />
+    <None Include="Service References\WSReferenceEmpleado\configuration91.svcinfo" />
+    <None Include="Service References\WSReferenceEmpleado\configuration.svcinfo" />
+    <None Include="Service References\WSReferenceEmpleado\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\WSProductoReference\ServicioProducto.disco" />
+    <None Include="Service References\WSProductoReference\configuration91.svcinfo" />
+    <None Include="Service References\WSProductoReference\configuration.svcinfo" />
+    <None Include="Service References\WSProductoReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -132,6 +140,13 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\WSAsignacionReference\ServicioAsignacionTecnico2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WSReferenceEmpleado\ServicioEmpleado.wsdl" />
+    <None Include="Service References\WSReferenceEmpleado\ServicioEmpleado.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WSReferenceEmpleado\ServicioEmpleado1.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\WSTodosProductosReference\ServicioListadoTodosProducto.wsdl" />
@@ -156,13 +171,6 @@
     <None Include="Service References\ServiceReferenceListadoProdFab\configuration91.svcinfo" />
     <None Include="Service References\ServiceReferenceListadoProdFab\configuration.svcinfo" />
     <None Include="Service References\ServiceReferenceListadoProdFab\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-    <None Include="Service References\WFEmpleadoReference\ServicioEmpleado.disco" />
-    <None Include="Service References\WFEmpleadoReference\configuration91.svcinfo" />
-    <None Include="Service References\WFEmpleadoReference\configuration.svcinfo" />
-    <None Include="Service References\WFEmpleadoReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -239,12 +247,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="Service References\WFEmpleadoReference\Reference.cs">
+    <Compile Include="Service References\WSAsignacionReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="Service References\WSAsignacionReference\Reference.cs">
+    <Compile Include="Service References\WSProductoReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WSReferenceEmpleado\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -267,8 +280,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\ServiceReferenceListadoProdFab\" />
-    <WCFMetadataStorage Include="Service References\WFEmpleadoReference\" />
     <WCFMetadataStorage Include="Service References\WSAsignacionReference\" />
+    <WCFMetadataStorage Include="Service References\WSProductoReference\" />
+    <WCFMetadataStorage Include="Service References\WSReferenceEmpleado\" />
     <WCFMetadataStorage Include="Service References\WSTodosProductosReference\" />
   </ItemGroup>
   <ItemGroup>
