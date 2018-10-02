@@ -15,5 +15,10 @@ namespace DistribuidoraServicios
         [OperationContract]
         bool insertarImportado(int codigo, string nombre, string descripcion, double costo, double precioSugerido, string paisOrigen, int cantMinima);
 
+        [OperationContract]
+        bool insertarFabricado(int codigo, string nombre, string descripcion, double costo, double precioSugerido, double tiempo);
+
+        [OperationContract]
+        bool actualizarEmpleado(string email, int codigo);
     }
 }

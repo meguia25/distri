@@ -11,7 +11,11 @@ namespace Distribuidora
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string u = (string)Session["empleado"];
+            if (u == null)
+            {
+                Response.Redirect("InicioLoginn.aspx");
+            }
         }
 
         protected void BtnEmpleado_Click(object sender, EventArgs e)
@@ -36,6 +40,11 @@ namespace Distribuidora
         protected void BtnListadoProd_Click(object sender, EventArgs e)
         {
             Response.Redirect("ListadoTodosProductos.aspx");
+        }
+
+        protected void BtnListadoTipo_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ListadoPorTipo.aspx");
         }
     }
 }

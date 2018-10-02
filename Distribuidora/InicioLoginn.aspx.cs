@@ -31,5 +31,10 @@ namespace Distribuidora
                 Response.Redirect("Menu.aspx");
             }
         }
+
+        protected void BtnListadoTipo_Click(object sender, EventArgs e)
+        {
+                Response.Redirect("ListadoPorTipo.aspx");
+        }
     }
 }

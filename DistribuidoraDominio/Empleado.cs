@@ -37,7 +37,7 @@ namespace DistribuidoraDominio
         #endregion
 
         #region Constructor
-                public Empleado(string nombre, string contrasenia, string email)
+        public Empleado(string nombre, string contrasenia, string email)
         {
             this.nombre = nombre;
             this.email = email;
@@ -168,12 +168,37 @@ namespace DistribuidoraDominio
 
             Empleado e = new Empleado
             {
-                Nombre = dr["Nombre"] == DBNull.Value ?
-                                                            "No tiene nombre" :
-                                                            dr["Nombre"].ToString(),
+                Email = dr["Email"] == DBNull.Value ? "No tiene email" : dr["Email"].ToString(),
             };
             return e;
 
+        }
+
+        public bool actualizarEmailAlta(string email, int codigo)
+        {
+            string cadenaComando = @"exec UpdateEmpleado " + codigo + ",@Email";
+            Conexion objetoConexion = new Conexion();
+            SqlConnection cn = Conexion.CrearConexion();
+            SqlCommand cmd = new SqlCommand
+                (cadenaComando, (SqlConnection)cn);
+            cmd.Parameters.Add(new SqlParameter("@email", this.Email));
+            try
+            {
+                Conexion.AbrirConexion(cn);
+                int filas = cmd.ExecuteNonQuery();
+                if (filas == 1) return true;
+                return false;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Assert(false, "Error: " +
+                    ex.Message);
+                return false;
+            }
+            finally
+            {
+                Conexion.CerrarConexion(cn);
+            }
         }
         #endregion
 

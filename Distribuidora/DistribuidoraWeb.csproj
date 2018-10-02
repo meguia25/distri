@@ -80,6 +80,7 @@
     <Content Include="js\jquery-1.11.3.min.js" />
     <Content Include="js\jquery.magnific-popup.min.js" />
     <Content Include="js\jquery.singlePageNav.min.js" />
+    <Content Include="ListadoPorTipo.aspx" />
     <Content Include="ListadoProdFabb.aspx" />
     <Content Include="ListadoTodosProductos.aspx" />
     <Content Include="Menu.aspx" />
@@ -108,11 +109,24 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Service References\WSProductoReference\ServicioProducto.wsdl" />
-    <None Include="Service References\WSProductoReference\ServicioProducto.xsd">
+    <Content Include="Service References\WSListadoPorTipoReference\Distribuidora.WSListadoPorTipoReference.DTOListadoPorTipo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\WSListadoPorTipoReference\ServicioListadoPorTipo.wsdl" />
+    <None Include="Service References\WSListadoPorTipoReference\ServicioListadoPorTipo.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WSProductoReference\ServicioProducto1.xsd">
+    <None Include="Service References\WSListadoPorTipoReference\ServicioListadoPorTipo1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WSListadoPorTipoReference\ServicioListadoPorTipo2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WSProdReference\ServicioProducto.wsdl" />
+    <None Include="Service References\WSProdReference\ServicioProducto.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WSProdReference\ServicioProducto1.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\WSReferenceEmpleado\ServicioEmpleado.disco" />
@@ -122,10 +136,17 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Service References\WSProductoReference\ServicioProducto.disco" />
-    <None Include="Service References\WSProductoReference\configuration91.svcinfo" />
-    <None Include="Service References\WSProductoReference\configuration.svcinfo" />
-    <None Include="Service References\WSProductoReference\Reference.svcmap">
+    <None Include="Service References\WSListadoPorTipoReference\ServicioListadoPorTipo.disco" />
+    <None Include="Service References\WSListadoPorTipoReference\configuration91.svcinfo" />
+    <None Include="Service References\WSListadoPorTipoReference\configuration.svcinfo" />
+    <None Include="Service References\WSListadoPorTipoReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\WSProdReference\ServicioProducto.disco" />
+    <None Include="Service References\WSProdReference\configuration91.svcinfo" />
+    <None Include="Service References\WSProdReference\configuration.svcinfo" />
+    <None Include="Service References\WSProdReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -213,6 +234,13 @@
     <Compile Include="InicioLoginn.aspx.designer.cs">
       <DependentUpon>InicioLoginn.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ListadoPorTipo.aspx.cs">
+      <DependentUpon>ListadoPorTipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListadoPorTipo.aspx.designer.cs">
+      <DependentUpon>ListadoPorTipo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ListadoProdFabb.aspx.cs">
       <DependentUpon>ListadoProdFabb.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -252,7 +280,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="Service References\WSProductoReference\Reference.cs">
+    <Compile Include="Service References\WSListadoPorTipoReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WSProdReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -281,7 +314,8 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\ServiceReferenceListadoProdFab\" />
     <WCFMetadataStorage Include="Service References\WSAsignacionReference\" />
-    <WCFMetadataStorage Include="Service References\WSProductoReference\" />
+    <WCFMetadataStorage Include="Service References\WSListadoPorTipoReference\" />
+    <WCFMetadataStorage Include="Service References\WSProdReference\" />
     <WCFMetadataStorage Include="Service References\WSReferenceEmpleado\" />
     <WCFMetadataStorage Include="Service References\WSTodosProductosReference\" />
   </ItemGroup>

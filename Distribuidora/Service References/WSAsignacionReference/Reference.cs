@@ -26,7 +26,16 @@ namespace Distribuidora.WSAsignacionReference {
         private int CodigoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescripcionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EmailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string NombreField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TiempoField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -52,6 +61,32 @@ namespace Distribuidora.WSAsignacionReference {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Descripcion {
+            get {
+                return this.DescripcionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescripcionField, value) != true)) {
+                    this.DescripcionField = value;
+                    this.RaisePropertyChanged("Descripcion");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Email {
+            get {
+                return this.EmailField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EmailField, value) != true)) {
+                    this.EmailField = value;
+                    this.RaisePropertyChanged("Email");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Nombre {
             get {
                 return this.NombreField;
@@ -60,6 +95,19 @@ namespace Distribuidora.WSAsignacionReference {
                 if ((object.ReferenceEquals(this.NombreField, value) != true)) {
                     this.NombreField = value;
                     this.RaisePropertyChanged("Nombre");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Tiempo {
+            get {
+                return this.TiempoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TiempoField, value) != true)) {
+                    this.TiempoField = value;
+                    this.RaisePropertyChanged("Tiempo");
                 }
             }
         }
@@ -89,6 +137,12 @@ namespace Distribuidora.WSAsignacionReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAsignacionTecnico/ListaProductos", ReplyAction="http://tempuri.org/IAsignacionTecnico/ListaProductosResponse")]
         System.Threading.Tasks.Task<Distribuidora.WSAsignacionReference.DTOAsignacionTecnico[]> ListaProductosAsync(string email);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAsignacionTecnico/AsignacionTecnico", ReplyAction="http://tempuri.org/IAsignacionTecnico/AsignacionTecnicoResponse")]
+        bool AsignacionTecnico(string email, int codigo, string descripcion, int tiempo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAsignacionTecnico/AsignacionTecnico", ReplyAction="http://tempuri.org/IAsignacionTecnico/AsignacionTecnicoResponse")]
+        System.Threading.Tasks.Task<bool> AsignacionTecnicoAsync(string email, int codigo, string descripcion, int tiempo);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -132,6 +186,14 @@ namespace Distribuidora.WSAsignacionReference {
         
         public System.Threading.Tasks.Task<Distribuidora.WSAsignacionReference.DTOAsignacionTecnico[]> ListaProductosAsync(string email) {
             return base.Channel.ListaProductosAsync(email);
+        }
+        
+        public bool AsignacionTecnico(string email, int codigo, string descripcion, int tiempo) {
+            return base.Channel.AsignacionTecnico(email, codigo, descripcion, tiempo);
+        }
+        
+        public System.Threading.Tasks.Task<bool> AsignacionTecnicoAsync(string email, int codigo, string descripcion, int tiempo) {
+            return base.Channel.AsignacionTecnicoAsync(email, codigo, descripcion, tiempo);
         }
     }
 }

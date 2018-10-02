@@ -12,6 +12,15 @@ namespace DistribuidoraServicios
     // NOTA: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione ServicioAsignacionTecnico.svc o ServicioAsignacionTecnico.svc.cs en el Explorador de soluciones e inicie la depuración.
     public class ServicioAsignacionTecnico : IAsignacionTecnico
     {
+        public bool AsignacionTecnico(string email, int codigo, string descripcion, int tiempo)
+        {
+            Fabricacion f = new Fabricacion() {
+                Descripcion = descripcion,
+                Tiempo = tiempo,
+            };
+            return f.asignacionTecnicos(email, codigo);
+        }
+
         public IEnumerable<DTOAsignacionTecnico> ListaProductos(string email)
         {
             IEnumerable<Fabricado> listaCompleta = Fabricado.FindFabricadoByEmail(email);
@@ -33,9 +42,10 @@ namespace DistribuidoraServicios
             foreach (Empleado f in listaCompleta)
             {
                 losEmpleados.Add(new DTOAsignacionTecnico()
-                { Nombre = f.Nombre });
+                { Email = f.Email });
             }
             return losEmpleados;
         }
+
     }
 }

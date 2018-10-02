@@ -12,6 +12,11 @@ namespace Distribuidora
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string u = (string)Session["empleado"];
+            if (u == null)
+            {
+                Response.Redirect("InicioLoginn.aspx");
+            }
             using (WSTodosProductosReference.ListadoTodosProductoClient clienteProxyDelServicio = new ListadoTodosProductoClient())
             {
                 var listado = clienteProxyDelServicio.listado();

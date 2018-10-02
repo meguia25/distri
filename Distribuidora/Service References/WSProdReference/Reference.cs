@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Distribuidora.WSProductoReference {
+namespace Distribuidora.WSProdReference {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="WSProductoReference.IProductoService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="WSProdReference.IProductoService")]
     public interface IProductoService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProductoService/insertarImportado", ReplyAction="http://tempuri.org/IProductoService/insertarImportadoResponse")]
@@ -20,15 +20,27 @@ namespace Distribuidora.WSProductoReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProductoService/insertarImportado", ReplyAction="http://tempuri.org/IProductoService/insertarImportadoResponse")]
         System.Threading.Tasks.Task<bool> insertarImportadoAsync(int codigo, string nombre, string descripcion, double costo, double precioSugerido, string paisOrigen, int cantMinima);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProductoService/insertarFabricado", ReplyAction="http://tempuri.org/IProductoService/insertarFabricadoResponse")]
+        bool insertarFabricado(int codigo, string nombre, string descripcion, double costo, double precioSugerido, double tiempo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProductoService/insertarFabricado", ReplyAction="http://tempuri.org/IProductoService/insertarFabricadoResponse")]
+        System.Threading.Tasks.Task<bool> insertarFabricadoAsync(int codigo, string nombre, string descripcion, double costo, double precioSugerido, double tiempo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProductoService/actualizarEmpleado", ReplyAction="http://tempuri.org/IProductoService/actualizarEmpleadoResponse")]
+        bool actualizarEmpleado(string email, int codigo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProductoService/actualizarEmpleado", ReplyAction="http://tempuri.org/IProductoService/actualizarEmpleadoResponse")]
+        System.Threading.Tasks.Task<bool> actualizarEmpleadoAsync(string email, int codigo);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IProductoServiceChannel : Distribuidora.WSProductoReference.IProductoService, System.ServiceModel.IClientChannel {
+    public interface IProductoServiceChannel : Distribuidora.WSProdReference.IProductoService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ProductoServiceClient : System.ServiceModel.ClientBase<Distribuidora.WSProductoReference.IProductoService>, Distribuidora.WSProductoReference.IProductoService {
+    public partial class ProductoServiceClient : System.ServiceModel.ClientBase<Distribuidora.WSProdReference.IProductoService>, Distribuidora.WSProdReference.IProductoService {
         
         public ProductoServiceClient() {
         }
@@ -55,6 +67,22 @@ namespace Distribuidora.WSProductoReference {
         
         public System.Threading.Tasks.Task<bool> insertarImportadoAsync(int codigo, string nombre, string descripcion, double costo, double precioSugerido, string paisOrigen, int cantMinima) {
             return base.Channel.insertarImportadoAsync(codigo, nombre, descripcion, costo, precioSugerido, paisOrigen, cantMinima);
+        }
+        
+        public bool insertarFabricado(int codigo, string nombre, string descripcion, double costo, double precioSugerido, double tiempo) {
+            return base.Channel.insertarFabricado(codigo, nombre, descripcion, costo, precioSugerido, tiempo);
+        }
+        
+        public System.Threading.Tasks.Task<bool> insertarFabricadoAsync(int codigo, string nombre, string descripcion, double costo, double precioSugerido, double tiempo) {
+            return base.Channel.insertarFabricadoAsync(codigo, nombre, descripcion, costo, precioSugerido, tiempo);
+        }
+        
+        public bool actualizarEmpleado(string email, int codigo) {
+            return base.Channel.actualizarEmpleado(email, codigo);
+        }
+        
+        public System.Threading.Tasks.Task<bool> actualizarEmpleadoAsync(string email, int codigo) {
+            return base.Channel.actualizarEmpleadoAsync(email, codigo);
         }
     }
 }

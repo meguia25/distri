@@ -34,8 +34,8 @@ namespace Distribuidora
 
 
                     DDLTecnicos.DataSource = tecnicos;
-                    DDLTecnicos.DataTextField = "Nombre";
-                    DDLTecnicos.DataValueField = "Nombre";
+                    DDLTecnicos.DataTextField = "Email";
+                    DDLTecnicos.DataValueField = "Email";
                     DDLTecnicos.DataBind();
                 }
 
@@ -45,7 +45,15 @@ namespace Distribuidora
         protected void BtnAlta_Click(object sender, EventArgs e)
         {
             int codigoProducto = (int.Parse(DDLProductos.SelectedItem.Value));
-            string nombreTecnico = (DDLTecnicos.SelectedItem.Value).ToString();
+            string email = (DDLTecnicos.SelectedItem.Value).ToString();
+            int tiempo = int.Parse(TxtTiempo1.Text);
+            string descripcion = TxtDescripcion.Text;
+            using(WSAsignacionReference.AsignacionTecnicoClient clienteProxyDelServicio = new AsignacionTecnicoClient())
+            {
+                clienteProxyDelServicio.AsignacionTecnico(email, codigoProducto, descripcion, tiempo);
+                LblMensaje.Text = "Asignacion de tecnico realizada";
+            }
+
         }
 
         protected void BtnVolver_Click(object sender, EventArgs e)

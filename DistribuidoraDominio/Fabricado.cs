@@ -147,17 +147,13 @@ namespace DistribuidoraDominio
             SqlConnection cn = Conexion.CrearConexion();
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = cn;
-            cmd.CommandText = @"INSERT INTO DProducto VALUES(@codigo,@nombre,@descripcion,@costo,@preciosug,@empleado)";
+            cmd.CommandText = @"EXEC ALTAFABRICADO @Codigo,@nombre,@descripcion,@costo,@preciosug,@Tiempo";
             cmd.Parameters.Add(new SqlParameter("@codigo", this.Codigo));
             cmd.Parameters.Add(new SqlParameter("@nombre", this.Nombre));
             cmd.Parameters.Add(new SqlParameter("@descripcion", this.Descripcion));
             cmd.Parameters.Add(new SqlParameter("@costo", this.Costo));
             cmd.Parameters.Add(new SqlParameter("@preciosug", this.PrecioSugerido));
-            //cmd.Parameters.Add(new SqlParameter("@empleado", this.email)); //Esta bien?
-            cmd.CommandText = @"INSERT INTO DFabricado VALUES(@tiem,@lista)";
-            cmd.Parameters.Add(new SqlParameter("@tiem", this.PrecioSugerido));
-            cmd.Parameters.Add(new SqlParameter("@lista", this.PrecioSugerido));
-
+            cmd.Parameters.Add(new SqlParameter("@Tiempo", this.Tiempo));
             try
             {
                 Conexion.AbrirConexion(cn);

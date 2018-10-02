@@ -26,6 +26,10 @@
                     <asp:Button ID="BtnListadoProd" runat="server" type="submit" class="tm-nav-item-link tm-button"
                         Text="Listado todos los productos" OnClick="BtnListadoProd_Click" />
                 </li>
+                <li class="tm-nav-item">
+                    <asp:Button ID="BtnListadoTipo" runat="server" type="submit" class="tm-nav-item-link tm-button"
+                        Text="Listado por tipo de producto" OnClick="BtnListadoTipo_Click" />
+                </li>
             </ul>
         </div>
     </div>

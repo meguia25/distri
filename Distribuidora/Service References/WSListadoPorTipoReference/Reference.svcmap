@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cd77fd4f-766d-4545-96b3-a5874aa1a4e0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49054/ServicioListadoPorTipo.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioListadoPorTipo.disco" MetadataType="Disco" ID="f88fff21-7d5f-40e0-89cb-9bccfc22ce47" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoPorTipo.svc?disco" />
+    <MetadataFile FileName="ServicioListadoPorTipo.wsdl" MetadataType="Wsdl" ID="d4528b78-0fbb-4e9f-ab91-a1f53e8dc0f8" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoPorTipo.svc?wsdl" />
+    <MetadataFile FileName="ServicioListadoPorTipo.xsd" MetadataType="Schema" ID="326629dd-8106-41b7-9d9c-580ee5352751" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoPorTipo.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioListadoPorTipo1.xsd" MetadataType="Schema" ID="2e94cca8-bccf-4fee-a174-ffa091422ed6" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoPorTipo.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioListadoPorTipo2.xsd" MetadataType="Schema" ID="5df016e5-8102-42ef-9fd1-bf15f55b1076" SourceId="1" SourceUrl="http://localhost:49054/ServicioListadoPorTipo.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

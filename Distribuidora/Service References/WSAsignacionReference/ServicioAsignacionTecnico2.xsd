@@ -9,7 +9,10 @@
   <xs:complexType name="DTOAsignacionTecnico">
     <xs:sequence>
       <xs:element minOccurs="0" name="Codigo" type="xs:int" />
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tiempo" nillable="true" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="DTOAsignacionTecnico" nillable="true" type="tns:DTOAsignacionTecnico" />

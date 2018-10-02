@@ -18,5 +18,9 @@ namespace DistribuidoraServicios
         [OperationContract]
         IEnumerable<DTOAsignacionTecnico> ListaProductos(string email);
 
+        [OperationContract]
+        bool AsignacionTecnico(string email, int codigo, string descripcion, int tiempo);
+
+
     }
 }

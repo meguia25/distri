@@ -19,6 +19,12 @@
   <wsdl:message name="IAsignacionTecnico_ListaProductos_OutputMessage">
     <wsdl:part name="parameters" element="tns:ListaProductosResponse" />
   </wsdl:message>
+  <wsdl:message name="IAsignacionTecnico_AsignacionTecnico_InputMessage">
+    <wsdl:part name="parameters" element="tns:AsignacionTecnico" />
+  </wsdl:message>
+  <wsdl:message name="IAsignacionTecnico_AsignacionTecnico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AsignacionTecnicoResponse" />
+  </wsdl:message>
   <wsdl:portType name="IAsignacionTecnico">
     <wsdl:operation name="ListaTecnicos">
       <wsdl:input wsaw:Action="http://tempuri.org/IAsignacionTecnico/ListaTecnicos" message="tns:IAsignacionTecnico_ListaTecnicos_InputMessage" />
@@ -27,6 +33,10 @@
     <wsdl:operation name="ListaProductos">
       <wsdl:input wsaw:Action="http://tempuri.org/IAsignacionTecnico/ListaProductos" message="tns:IAsignacionTecnico_ListaProductos_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IAsignacionTecnico/ListaProductosResponse" message="tns:IAsignacionTecnico_ListaProductos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AsignacionTecnico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAsignacionTecnico/AsignacionTecnico" message="tns:IAsignacionTecnico_AsignacionTecnico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAsignacionTecnico/AsignacionTecnicoResponse" message="tns:IAsignacionTecnico_AsignacionTecnico_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IAsignacionTecnico" type="tns:IAsignacionTecnico">
@@ -42,6 +52,15 @@
     </wsdl:operation>
     <wsdl:operation name="ListaProductos">
       <soap:operation soapAction="http://tempuri.org/IAsignacionTecnico/ListaProductos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsignacionTecnico">
+      <soap:operation soapAction="http://tempuri.org/IAsignacionTecnico/AsignacionTecnico" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ServicioAsignacionTecnico.svc" />
+    <Content Include="ServicioListadoPorTipo.svc" />
     <Content Include="ServicioListadoProdFab.svc" />
     <Content Include="ServicioEmpleado.svc" />
     <Content Include="ServicioListadoTodosProducto.svc" />
@@ -98,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTOAsignacionTecnico.cs" />
+    <Compile Include="DTOListadoPorTipo.cs" />
     <Compile Include="DTOListadoProdFab.cs" />
     <Compile Include="DTOEmpleado.cs" />
     <Compile Include="DTOListadoTodosProducto.cs" />
@@ -105,8 +107,12 @@
     <Compile Include="IListadoProdFabService.cs" />
     <Compile Include="IListadoTodosProducto.cs" />
     <Compile Include="IProductoService.cs" />
+    <Compile Include="IServicioListadoPorTipo.cs" />
     <Compile Include="ServicioAsignacionTecnico.svc.cs">
       <DependentUpon>ServicioAsignacionTecnico.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ServicioListadoPorTipo.svc.cs">
+      <DependentUpon>ServicioListadoPorTipo.svc</DependentUpon>
     </Compile>
     <Compile Include="ServicioListadoProdFab.svc.cs">
       <DependentUpon>ServicioListadoProdFab.svc</DependentUpon>

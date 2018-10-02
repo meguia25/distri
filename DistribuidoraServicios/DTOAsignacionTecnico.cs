@@ -17,5 +17,14 @@ namespace DistribuidoraServicios
         [DataMember]
         public string Nombre { get; set; }
 
+        [DataMember]
+        public string Email { get; set; }
+
+        [DataMember]
+        public string Tiempo { get; set; }
+
+        [DataMember]
+        public string Descripcion { get; set; }
+
     }
 }

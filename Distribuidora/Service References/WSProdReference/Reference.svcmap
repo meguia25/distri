@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="afd5de81-0f7a-48d4-9b9f-95e76a438219" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2ab1c8e5-060a-487d-b917-8ddbd53394f2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,10 +22,10 @@
     <MetadataSource Address="http://localhost:49054/ServicioProducto.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ServicioProducto.xsd" MetadataType="Schema" ID="dfa0bb71-5be8-45ac-b90a-329ac277cd51" SourceId="1" SourceUrl="http://localhost:49054/ServicioProducto.svc?xsd=xsd1" />
-    <MetadataFile FileName="ServicioProducto.disco" MetadataType="Disco" ID="c382bc24-927a-482c-8a9a-6e676e34b443" SourceId="1" SourceUrl="http://localhost:49054/ServicioProducto.svc?disco" />
-    <MetadataFile FileName="ServicioProducto1.xsd" MetadataType="Schema" ID="e45f4075-6bfd-4ca2-b3c0-b13d8e4e461e" SourceId="1" SourceUrl="http://localhost:49054/ServicioProducto.svc?xsd=xsd0" />
-    <MetadataFile FileName="ServicioProducto.wsdl" MetadataType="Wsdl" ID="3c4ba3bc-1283-4d82-955e-e134d60c5bd6" SourceId="1" SourceUrl="http://localhost:49054/ServicioProducto.svc?wsdl" />
+    <MetadataFile FileName="ServicioProducto.xsd" MetadataType="Schema" ID="a89eb8a8-e275-4c12-a5cf-1bd80c63e435" SourceId="1" SourceUrl="http://localhost:49054/ServicioProducto.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioProducto.disco" MetadataType="Disco" ID="4d70d1b0-7e3b-4260-b871-c29df56df784" SourceId="1" SourceUrl="http://localhost:49054/ServicioProducto.svc?disco" />
+    <MetadataFile FileName="ServicioProducto1.xsd" MetadataType="Schema" ID="0060294d-6877-4552-9777-fef10a60bf33" SourceId="1" SourceUrl="http://localhost:49054/ServicioProducto.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioProducto.wsdl" MetadataType="Wsdl" ID="5d008455-3174-4f16-8acb-331fdf6587f2" SourceId="1" SourceUrl="http://localhost:49054/ServicioProducto.svc?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
