@@ -168,5 +168,3 @@ C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\Distribuidora\bin
 C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\Distribuidora\bin\Distribuidora.pdb
 C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\Distribuidora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\Distribuidora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\Distribuidora\bin\DistribuidoraDominio.dll
-C:\Users\Mariana Eguia\Documents\Facultad\distri ultimo\distri\Distribuidora\bin\DistribuidoraDominio.pdb

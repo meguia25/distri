@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DistribuidoraDominio;
 using Distribuidora.WSAsignacionReference;
 
 
@@ -23,8 +22,9 @@ namespace Distribuidora
             {
                 using (WSAsignacionReference.AsignacionTecnicoClient clienteProxyDelServicio = new AsignacionTecnicoClient())
                 {
-
-                    var listado = clienteProxyDelServicio.ListaProductos(u);
+                    if (!IsPostBack)
+                    {
+                        var listado = clienteProxyDelServicio.ListaProductos(u);
                     var tecnicos = clienteProxyDelServicio.ListaTecnicos();
 
                     DDLProductos.DataSource = listado;
@@ -37,6 +37,7 @@ namespace Distribuidora
                     DDLTecnicos.DataTextField = "Email";
                     DDLTecnicos.DataValueField = "Email";
                     DDLTecnicos.DataBind();
+                    }
                 }
 
             }
@@ -59,16 +60,6 @@ namespace Distribuidora
         protected void BtnVolver_Click(object sender, EventArgs e)
         {
             Response.Redirect("Menu.aspx");
-        }
-
-        protected void DDLProductos_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            DDLProductos.SelectedValue = DDLProductos.SelectedItem.Value;
-        }
-
-        protected void DDLTecnicos_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            DDLTecnicos.SelectedValue = DDLTecnicos.SelectedItem.Value;
         }
     }
 }

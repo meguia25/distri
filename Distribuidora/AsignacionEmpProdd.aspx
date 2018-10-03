@@ -7,8 +7,8 @@
         <asp:LinkButton ID="BtnVolver" runat="server" OnClick="BtnVolver_Click">Volver al menú</asp:LinkButton>
     </div>
     <div class="form-group">
-        <asp:DropDownList ID="DDLProductos" runat="server" OnSelectedIndexChanged="DDLProductos_SelectedIndexChanged"></asp:DropDownList>
-        <asp:DropDownList ID="DDLTecnicos" runat="server" OnSelectedIndexChanged="DDLTecnicos_SelectedIndexChanged"></asp:DropDownList>
+        <asp:DropDownList ID="DDLProductos" runat="server"  AutoPostBack="true"></asp:DropDownList>
+        <asp:DropDownList ID="DDLTecnicos" runat="server"  AutoPostBack="true"></asp:DropDownList>
     </div>
     <div class="form-group">
         <asp:TextBox ID="TxtDescripcion" Text="Descripción" runat="server"></asp:TextBox>

@@ -14,5 +14,8 @@ namespace DistribuidoraServicios
     {
         [OperationContract]
         bool InsertarEmpleado(string nombre, string contrasenia, string email);
+
+        [OperationContract]
+        bool validarU(string email, string contrasenia);
     }
 }

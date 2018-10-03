@@ -23,5 +23,10 @@ namespace DistribuidoraServicios
             return e.Insertar();
 
         }
+
+        public bool validarU(string email, string contrasenia)
+        {
+            return Empleado.ValidarUsuario(email,contrasenia);
+        }
     }
 }

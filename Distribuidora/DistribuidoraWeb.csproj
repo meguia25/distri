@@ -319,12 +319,6 @@
     <WCFMetadataStorage Include="Service References\WSReferenceEmpleado\" />
     <WCFMetadataStorage Include="Service References\WSTodosProductosReference\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DistribuidoraDominio\DistribuidoraDominio.csproj">
-      <Project>{58d09bd0-c3ea-4a38-9be3-247a14782506}</Project>
-      <Name>DistribuidoraDominio</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

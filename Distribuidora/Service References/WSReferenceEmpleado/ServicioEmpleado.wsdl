@@ -12,16 +12,35 @@
   <wsdl:message name="IEmpleadoService_InsertarEmpleado_OutputMessage">
     <wsdl:part name="parameters" element="tns:InsertarEmpleadoResponse" />
   </wsdl:message>
+  <wsdl:message name="IEmpleadoService_validarU_InputMessage">
+    <wsdl:part name="parameters" element="tns:validarU" />
+  </wsdl:message>
+  <wsdl:message name="IEmpleadoService_validarU_OutputMessage">
+    <wsdl:part name="parameters" element="tns:validarUResponse" />
+  </wsdl:message>
   <wsdl:portType name="IEmpleadoService">
     <wsdl:operation name="InsertarEmpleado">
       <wsdl:input wsaw:Action="http://tempuri.org/IEmpleadoService/InsertarEmpleado" message="tns:IEmpleadoService_InsertarEmpleado_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IEmpleadoService/InsertarEmpleadoResponse" message="tns:IEmpleadoService_InsertarEmpleado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="validarU">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmpleadoService/validarU" message="tns:IEmpleadoService_validarU_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmpleadoService/validarUResponse" message="tns:IEmpleadoService_validarU_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IEmpleadoService" type="tns:IEmpleadoService">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="InsertarEmpleado">
       <soap:operation soapAction="http://tempuri.org/IEmpleadoService/InsertarEmpleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validarU">
+      <soap:operation soapAction="http://tempuri.org/IEmpleadoService/validarU" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

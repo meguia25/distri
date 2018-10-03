@@ -20,6 +20,12 @@ namespace Distribuidora.WSReferenceEmpleado {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmpleadoService/InsertarEmpleado", ReplyAction="http://tempuri.org/IEmpleadoService/InsertarEmpleadoResponse")]
         System.Threading.Tasks.Task<bool> InsertarEmpleadoAsync(string nombre, string contrasenia, string email);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmpleadoService/validarU", ReplyAction="http://tempuri.org/IEmpleadoService/validarUResponse")]
+        bool validarU(string email, string contrasenia);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmpleadoService/validarU", ReplyAction="http://tempuri.org/IEmpleadoService/validarUResponse")]
+        System.Threading.Tasks.Task<bool> validarUAsync(string email, string contrasenia);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -55,6 +61,14 @@ namespace Distribuidora.WSReferenceEmpleado {
         
         public System.Threading.Tasks.Task<bool> InsertarEmpleadoAsync(string nombre, string contrasenia, string email) {
             return base.Channel.InsertarEmpleadoAsync(nombre, contrasenia, email);
+        }
+        
+        public bool validarU(string email, string contrasenia) {
+            return base.Channel.validarU(email, contrasenia);
+        }
+        
+        public System.Threading.Tasks.Task<bool> validarUAsync(string email, string contrasenia) {
+            return base.Channel.validarUAsync(email, contrasenia);
         }
     }
 }

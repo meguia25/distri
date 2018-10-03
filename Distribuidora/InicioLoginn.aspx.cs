@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DistribuidoraDominio;
+using Distribuidora.WSReferenceEmpleado;
 
 
 namespace Distribuidora
@@ -17,24 +17,28 @@ namespace Distribuidora
         }
         protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
         {
-            bool j = Empleado.ValidarUsuario(Login1.UserName, Login1.Password);
-            if (j == false)
+            using (WSReferenceEmpleado.EmpleadoServiceClient clienteProxyDelServicio = new EmpleadoServiceClient())
             {
-                Session["empleado"] = null;
-                e.Authenticated = false;
-                Response.Redirect("InicioLogin.aspx");
-            }
-            else
-            {
-                e.Authenticated = true;
-                Session["empleado"] = Login1.UserName;
-                Response.Redirect("Menu.aspx");
+                bool j =  clienteProxyDelServicio.validarU(Login1.UserName, Login1.Password);
+               
+                if (j == false)
+                {
+                    Session["empleado"] = null;
+                    e.Authenticated = false;
+                    Response.Redirect("InicioLogin.aspx");
+                }
+                else
+                {
+                    e.Authenticated = true;
+                    Session["empleado"] = Login1.UserName;
+                    Response.Redirect("Menu.aspx");
+                }
             }
         }
 
         protected void BtnListadoTipo_Click(object sender, EventArgs e)
         {
-                Response.Redirect("ListadoPorTipo.aspx");
+            Response.Redirect("ListadoPorTipo.aspx");
         }
     }
 }

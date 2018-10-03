@@ -43,6 +43,7 @@ namespace Distribuidora
                     double tiempo = double.Parse(this.TxtTiempo.Text);
                     altaProducto = clienteProxyDelServicio.insertarFabricado(codigo,nombre,descripcion,costo,precioSugerido,tiempo);
                     clienteProxyDelServicio.actualizarEmpleado(u, codigo);
+                    LblMensaje.Text = "Alta de producto fabricado correcta";
                 }
                 else if (importado)
                 {
